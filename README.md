@@ -36,10 +36,10 @@ I enjoy building real-world projects that combine **data, intelligence, and user
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+git clone https://github.com/Kritisaha19/kriti-saha-portfolio.git
 
-# Navigate into the project
-cd YOUR-REPO-NAME
+# Navigate into the project folder
+cd kriti-saha-portfolio
 
 # Install dependencies
 npm install

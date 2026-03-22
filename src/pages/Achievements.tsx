@@ -2,19 +2,15 @@ import { Trophy, Target, Flame, Star } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
-  { icon: Trophy, label: "LeetCode Problems Solved", value: "500+", color: "text-yellow-600" },
-  { icon: Target, label: "LeetCode Contest Rating", value: "1750+", color: "text-emerald-600" },
-  { icon: Flame, label: "Max Streak", value: "120 days", color: "text-orange-500" },
-  { icon: Star, label: "CodeChef Rating", value: "4★", color: "text-navy" },
+  { icon: Trophy, label: "LeetCode Problems Solved", value: "150", color: "text-yellow-600" },
+  { icon: Target, label: "Geeks For Geeks Problems Solved", value: "138", color: "text-emerald-600" },
+  { icon: Flame, label: "Max Streak", value: "65 days", color: "text-orange-500" },
+  { icon: Star, label: "CodeChef Rating", value: "1*", color: "text-navy" },
 ];
 
 const achievements = [
-  "Solved 500+ problems on LeetCode across multiple topics",
-  "Ranked in Top 10% in LeetCode Weekly Contests",
-  "4-star rated on CodeChef",
-  "Participated in Google Kickstart & Code Jam",
-  "Top 5% on Kaggle for ML competitions",
-  "Published data analysis project featured on Analytics Vidhya",
+  "Solved 100+ problems on LeetCode across multiple topics",
+  "Achieved 50+ commits demonstrating consistent development and learning",
 ];
 
 const Achievements = () => (

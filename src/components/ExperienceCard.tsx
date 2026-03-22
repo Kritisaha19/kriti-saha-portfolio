@@ -5,10 +5,11 @@ interface ExperienceCardProps {
   role: string;
   duration: string;
   description: string;
+  certificateLink?: string;
   isLast?: boolean;
 }
 
-const ExperienceCard = ({ company, role, duration, description, isLast }: ExperienceCardProps) => (
+const ExperienceCard = ({ company, role, duration, description, certificateLink, isLast }: ExperienceCardProps) => (
   <div className="flex gap-6">
     {/* Timeline line */}
     <div className="flex flex-col items-center">
@@ -24,6 +25,16 @@ const ExperienceCard = ({ company, role, duration, description, isLast }: Experi
         <h3 className="font-serif text-xl font-semibold mt-3">{role}</h3>
         <p className="text-sm font-medium text-navy mt-1">{company}</p>
         <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{description}</p>
+        {certificateLink && (
+  <a
+    href={certificateLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mt-4 px-4 py-2 text-sm font-medium rounded-lg bg-navy text-white hover:opacity-90 transition"
+  >
+    View Certificate
+  </a>
+)}
       </div>
     </div>
   </div>

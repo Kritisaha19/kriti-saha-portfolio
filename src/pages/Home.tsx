@@ -1,16 +1,36 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Mail, MapPin, Download, ExternalLink, ArrowRight, Code2, ChevronRight } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile1.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 import SectionHeading from "@/components/SectionHeading";
 import SkillCard from "@/components/SkillCard";
 import ProjectCard from "@/components/ProjectCard";
 
 const quickSkills = [
-  { name: "Python", icon: "🐍", level: 90, category: "Programming" },
-  { name: "Machine Learning", icon: "🤖", level: 85, category: "AI/ML" },
-  { name: "Data Analysis", icon: "📊", level: 88, category: "Data Science" },
-  { name: "SQL", icon: "🗄️", level: 82, category: "Database" },
+  {
+    name: "Python",
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />,
+    level: 90,
+    category: "Programming"
+  },
+  {
+    name: "Java",
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />,
+    level: 85,
+    category: "Programming"
+  },
+  {
+    name: "Numpy",
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg" />,
+    level: 88,
+    category: "Data Science"
+  },
+  {
+    name: "SQL",
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"  />,
+    level: 82,
+    category: "Database"
+  },
 ];
 
 const featuredProjects = [
@@ -76,8 +96,8 @@ const Home = () => (
               AI Developer
             </p>
             <p className="text-cream/60 max-w-lg mb-8 leading-relaxed animate-in animate-in-delay-4">
-              Passionate Computer Science student specializing in turning complex data into actionable insights. 
-              I build intelligent solutions using AI, ML, and modern development tools to solve real-world problems.
+             As a Computer Science student, I enjoy exploring data and transforming complex problems into practical solutions. 
+             I am particularly interested in AI and machine learning, and I love using modern tools and technologies to build impactful, real-world applications.
             </p>
 
             {/* Buttons */}
@@ -85,19 +105,23 @@ const Home = () => (
               <Link to="/projects" className="btn-primary">
                 View My Work <ArrowRight size={16} />
               </Link>
-              <a href="#" className="btn-outline-light">
-                <Download size={16} /> Download Resume
-              </a>
+              <a
+  href="/KritiSahaCV.pdf"
+  download
+  className="btn-outline-light"
+>
+  <Download size={16} /> Download CV
+</a>
             </div>
 
             {/* Social icons */}
             <div className="flex gap-3 mt-8 justify-center lg:justify-start animate-in animate-in-delay-4">
               {[
-                { icon: Github, href: "https://github.com/kritisaha", label: "GitHub" },
-                { icon: Linkedin, href: "https://linkedin.com/in/kritisaha", label: "LinkedIn" },
-                { icon: () => <span className="text-sm font-bold">LC</span>, href: "https://leetcode.com/kritisaha", label: "LeetCode" },
-                { icon: () => <span className="text-sm font-bold">CC</span>, href: "https://codechef.com/users/kritisaha", label: "CodeChef" },
-                { icon: () => <span className="text-sm font-bold">K</span>, href: "https://kaggle.com/kritisaha", label: "Kaggle" },
+                { icon: Github, href: "https://github.com/kritisaha19", label: "GitHub" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/kriti-saha-/", label: "LinkedIn" },
+                { icon: () => <span className="text-sm font-bold">LC</span>, href: "https://leetcode.com/u/Kritisaha/", label: "LeetCode" },
+                { icon: () => <span className="text-sm font-bold">CC</span>, href: "https://www.codechef.com/users/free_cliff_92", label: "CodeChef" },
+                { icon: () => <span className="text-sm font-bold">gfg</span>, href: "https://www.geeksforgeeks.org/profile/kritissaha", label: "GeeksForGeeks" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
@@ -114,7 +138,7 @@ const Home = () => (
 
             {/* Quick contact */}
             <div className="flex flex-wrap gap-6 mt-6 justify-center lg:justify-start text-sm text-cream/50 animate-in animate-in-delay-4">
-              <span className="flex items-center gap-1.5"><Mail size={14} /> kriti.saha@email.com</span>
+              <span className="flex items-center gap-1.5"><Mail size={14} /> kriti.kri.saha@email.com</span>
               <span className="flex items-center gap-1.5"><MapPin size={14} /> India</span>
             </div>
           </div>

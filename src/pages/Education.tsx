@@ -4,23 +4,23 @@ import SectionHeading from "@/components/SectionHeading";
 const timeline = [
   {
     degree: "B.Tech in Computer Science & Engineering",
-    university: "University Name",
-    year: "2021 – 2025",
-    specialization: "AI & Data Science",
+    university: "Lovely Professional University",
+    year: "2023 – 2027",
+    specialization: "Data Science",
     coursework: ["Machine Learning", "Data Structures & Algorithms", "Database Management", "Artificial Intelligence", "Statistics & Probability", "Computer Networks"],
   },
   {
     degree: "Higher Secondary (XII)",
-    university: "School Name",
-    year: "2019 – 2021",
+    university: "St. Augustine's Day School",
+    year: "2021 – 2023",
     specialization: "Science (PCM + CS)",
     coursework: ["Mathematics", "Physics", "Computer Science", "Chemistry"],
   },
   {
     degree: "Secondary (X)",
-    university: "School Name",
-    year: "2019",
-    specialization: "General",
+    university: "St. Augustine's Day School",
+    year: "2021",
+    specialization: "Science (PCM + CS)",
     coursework: ["Mathematics", "Science", "English", "Computer Applications"],
   },
 ];

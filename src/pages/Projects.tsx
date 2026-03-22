@@ -1,42 +1,53 @@
 import SectionHeading from "@/components/SectionHeading";
 import ProjectCard from "@/components/ProjectCard";
-
+import lyricscomposer from "@/assets/lyricscomposer.png";
+import automl_screenshot from "@/assets/automl_screenshot.png";
+import os from "@/assets/os.png";
+import codesync from "@/assets/codesync.png";
+import crimeprediction from "@/assets/crimeprediction.png";
+import tradingstrategy from "@/assets/tradingstrategy.png";
 const projects = [
   {
-    title: "Sentiment Analysis Engine",
-    description: "NLP-powered sentiment classifier using BERT transformers for real-time social media analysis with interactive dashboard.",
-    technologies: ["Python", "BERT", "Flask", "React"],
-    github: "https://github.com/kritisaha",
+    title: "Code-Sync: Collaborative Code Editor",
+    description: "Real-time collaborative code editor that enables multiple users to write, edit, and execute code simultaneously with live synchronization.",
+    image: codesync,
+    technologies: ["React.js", "Node.js", "Express.js", "WebSockets", "Python", "REST APIs", "MongoDB", "Git"],
+    github: "https://github.com/Kritisaha19/CODE-SYNC-real-time-collaborative-code-editor",
   },
   {
-    title: "Stock Price Predictor",
-    description: "LSTM neural network model predicting stock price movements with 87% accuracy using historical market data.",
-    technologies: ["Python", "TensorFlow", "Pandas", "Plotly"],
-    github: "https://github.com/kritisaha",
+    title: "AutoML Pipeline for Tabular Data",
+    description: "Automated machine learning pipeline that streamlines preprocessing, model selection, and hyperparameter tuning to deliver optimized models with minimal manual effort.",
+    image: automl_screenshot,
+    technologies: ["Python", "Scikit-learn", "PyCaret", "Matplotlib"],
+    github: "https://github.com/Kritisaha19/automl-pipeline-builder",
   },
   {
-    title: "COVID-19 Data Dashboard",
-    description: "Interactive visualization dashboard tracking global pandemic trends with real-time data updates and forecasting.",
-    technologies: ["React", "D3.js", "REST API", "Tailwind"],
-    github: "https://github.com/kritisaha",
+    title: "Real-Time Memory Allocation Tracker",
+    description: "Interactive system for real-time visualization of memory allocation techniques including paging, segmentation, and fragmentation.",
+    image: os,
+    technologies: ["Python", "Tkinter","Numpy", "Operating Systems", "Data Visualization"],
+    github: "https://github.com/Kritisaha19/Real-Time-Memory-Allocation-Tracker",
   },
   {
-    title: "Image Classification System",
-    description: "CNN-based image classifier achieving 95% accuracy on custom dataset using transfer learning with ResNet.",
-    technologies: ["Python", "PyTorch", "OpenCV", "Streamlit"],
-    github: "https://github.com/kritisaha",
+    title: "Crime Arrest Prediction",
+    description: "Machine learning model that predicts arrest outcomes based on crime data patterns and influencing factors.",
+    image: crimeprediction,
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Logistic Regression"],
+    github: "https://github.com/Kritisaha19/Crime-Arrest-Prediction-ML",
   },
   {
-    title: "Customer Churn Prediction",
-    description: "ML pipeline predicting customer churn with feature engineering and XGBoost for a telecom company dataset.",
-    technologies: ["Python", "XGBoost", "scikit-learn", "Seaborn"],
-    github: "https://github.com/kritisaha",
+    title: "Personalized AI Lyric Composer",
+    description: "AI-powered chatbot that generates personalized song lyrics based on mood, genre, and artist style.",
+    image: lyricscomposer,
+    technologies: ["Python", "NLP", "Transformers", "Streamlit"],
+    github: "https://github.com/Kritisaha19/Lyric-Composer-Personalized-AI-lyric-Composer",
   },
   {
-    title: "Movie Recommendation System",
-    description: "Collaborative filtering and content-based hybrid recommendation engine using matrix factorization techniques.",
-    technologies: ["Python", "Surprise", "Flask", "React"],
-    github: "https://github.com/kritisaha",
+    title: "AI-ML Trading Strategy Engine",
+    description: "AI-powered trading simulator that predicts market trends and executes strategies using machine learning and technical indicators.",
+    image: tradingstrategy,
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Machine Learning", "Algorithmic Trading"],
+    github: "https://github.com/Kritisaha19/ai-ml-trading-strategy-engine",
   },
 ];
 

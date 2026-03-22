@@ -70,7 +70,7 @@ const Contact = () => {
                       <div className="w-10 h-10 rounded-full bg-navy/10 flex items-center justify-center">
                         <Mail size={18} className="text-navy" />
                       </div>
-                      kriti.saha@email.com
+                      kriti.kri.saha@email.com
                     </a>
                     <div className="flex items-center gap-4 text-foreground/70">
                       <div className="w-10 h-10 rounded-full bg-navy/10 flex items-center justify-center">
@@ -78,7 +78,7 @@ const Contact = () => {
                       </div>
                       India
                     </div>
-                    <a href="https://linkedin.com/in/kritisaha" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-foreground/70 hover:text-navy transition-colors">
+                    <a href="https://linkedin.com/in/kritisaha-" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-foreground/70 hover:text-navy transition-colors">
                       <div className="w-10 h-10 rounded-full bg-navy/10 flex items-center justify-center">
                         <Linkedin size={18} className="text-navy" />
                       </div>

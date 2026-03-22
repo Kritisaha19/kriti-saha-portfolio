@@ -1,13 +1,23 @@
 import SectionHeading from "@/components/SectionHeading";
 import CertificateCard from "@/components/CertificateCard";
+import boardinfinity from "@/certificates/boardinfinity.png";
+import cloudcomputing from "@/certificates/cloudcomputing.png";
+import bitsandbytescourseragoogle from "@/certificates/bitsandbytescourseragoogle.png";
+import csepathshala from "@/certificates/csepathshala.png";
+import computercommunications from "@/certificates/computercommunications.png";
+import digitalsystems from "@/certificates/digitalsystems.png";
+import operatingsystems from "@/certificates/operatingsystems.png";
+import FundamentalsofNetworkCommunication from "@/certificates/FundamentalsofNetworkCommunication.png";
 
 const certificates = [
-  { name: "Machine Learning Specialization", organization: "Coursera (Stanford / Andrew Ng)", date: "2024" },
-  { name: "Deep Learning Specialization", organization: "Coursera (deeplearning.ai)", date: "2024" },
-  { name: "Data Science Professional Certificate", organization: "IBM (Coursera)", date: "2023" },
-  { name: "Python for Data Science", organization: "NPTEL", date: "2023" },
-  { name: "SQL for Data Analysis", organization: "Udacity", date: "2023" },
-  { name: "AWS Cloud Practitioner", organization: "Amazon Web Services", date: "2024" },
+  {name: "Cloud Computing", organization: "NPTEL", date: "2025", image: cloudcomputing, pdfLink: "https://drive.google.com/file/d/1W5CBAy0vjFDpKEdy-8BCRZgNmcjFSrn0/view?usp=sharing" },
+  {name: "Operating Systems", organization: "Coursera (IBM)", date: "2024", image: operatingsystems, pdfLink: "https://drive.google.com/file/d/1InEThIb72DNxqP4ai0oJrZUGk6pNeAEO/view?usp=sharing"},
+  { name: "Bits and Bytes", organization: "Coursera(Google)", date: "2024", image: bitsandbytescourseragoogle, pdfLink: "https://drive.google.com/file/d/1inpitUcts7k7ge5BNBiUg0_PQjY429r-/view?usp=sharing" },
+  {name: "Python towards AI/ML", organization: "CSE Pathshala", date: "2024", image: csepathshala, pdfLink: "https://drive.google.com/file/d/1yalGx0CNjEM1PdFfZiv4NRQZdDDYhNvL/view?usp=sharing" },
+  {name: "Fundamentals of Network Communication", organization: "Coursera (University of Colorado)", date: "2024", image: FundamentalsofNetworkCommunication, pdfLink: "https://drive.google.com/file/d/1cxVZw3Z1qSGVaoknDDHfcmgl0W0psqi1/view?usp=sharing" },
+  { name: "Python for Data Science", organization: "Board Infinity", date: "2024", image: boardinfinity, pdfLink: "https://drive.google.com/file/d/1yWMGgvDpVozYdlfDkOgSu3qWSTLpqjZR/view?usp=sharing" },
+  {name: "Digital Systems", organization: "Coursera (University Autonoma de Barcelona)", date: "2024", image: digitalsystems, pdfLink: "https://drive.google.com/file/d/1020HNC6xJHDeUEeOigqqmwNg0KdivN4b/view?usp=sharing"},
+  {name: "Computer Communications", organization: "Coursera", date: "2024", image: computercommunications, pdfLink: "https://drive.google.com/file/d/1MDT50-jpo_7vT_tIUrya-BKF0z4xI26E/view?usp=sharing"},
 ];
 
 const Certificates = () => (

@@ -1,6 +1,6 @@
 import { Mail, MapPin, Linkedin, Download, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/image.jpg";
 
 const About = () => (
   <div className="pt-16">
@@ -29,9 +29,13 @@ const About = () => (
               I'm actively seeking opportunities in AI/ML engineering, data analysis, and research roles where I can contribute to 
               innovative projects and continue growing as a developer.
             </p>
-            <a href="#" className="btn-primary inline-flex mt-4">
-              <Download size={16} /> Download Resume
-            </a>
+            <a
+  href="/KritiSahaCV.pdf"
+  download
+  className="btn-outline"
+>
+  Download CV
+</a>
           </div>
 
           {/* Side info card */}
@@ -47,7 +51,7 @@ const About = () => (
               <div className="space-y-4 text-sm">
                 <div className="flex items-center gap-3 text-foreground/70">
                   <Mail size={16} className="text-navy shrink-0" />
-                  kriti.saha@email.com
+                  kriti.kri.saha@email.com
                 </div>
                 <div className="flex items-center gap-3 text-foreground/70">
                   <MapPin size={16} className="text-navy shrink-0" />

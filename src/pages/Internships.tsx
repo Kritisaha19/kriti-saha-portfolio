@@ -3,22 +3,11 @@ import ExperienceCard from "@/components/ExperienceCard";
 
 const experiences = [
   {
-    company: "Tech Company",
+    company: "CodSoft Solutions",
     role: "Data Science Intern",
-    duration: "Jun 2024 – Aug 2024",
+    duration: "July 2024 – August 2024",
     description: "Developed machine learning models for predictive analytics, automated data cleaning pipelines using Python, and created interactive dashboards for stakeholder reporting. Improved prediction accuracy by 15% through feature engineering.",
-  },
-  {
-    company: "Startup Name",
-    role: "ML Engineering Intern",
-    duration: "Jan 2024 – Mar 2024",
-    description: "Built NLP models for text classification, deployed RESTful APIs for model inference using Flask, and collaborated with the product team to integrate AI features into the core platform.",
-  },
-  {
-    company: "University Research Lab",
-    role: "Research Assistant",
-    duration: "Sep 2023 – Dec 2023",
-    description: "Conducted research on deep learning techniques for medical image analysis. Implemented CNN architectures and evaluated model performance on benchmark datasets.",
+    certificateLink: "https://drive.google.com/file/d/1OHWt3nH4SO-IEUuzIUJ-tMw4ozAzJ84_/view?usp=sharing",
   },
 ];
 

@@ -127,7 +127,7 @@
   }
   .animate-in {
     animation: fadeSlideUp 0.6s ease-out forwards;
-    opacity: 0;
+    /* opacity: 0;*/
   }
   .animate-in-delay-1 { animation-delay: 0.1s; }
   .animate-in-delay-2 { animation-delay: 0.2s; }

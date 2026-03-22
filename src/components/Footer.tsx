@@ -24,7 +24,7 @@ const Footer = () => (
           <h4 className="font-serif text-lg font-semibold mb-4">Connect</h4>
           <div className="flex gap-4">
             {[
-              { icon: Github, href: "https://github.com/kritisaha" },
+              { icon: Github, href: "https://github.com/kritisaha19" },
               { icon: Linkedin, href: "https://linkedin.com/in/kritisaha" },
               { icon: Mail, href: "mailto:kriti.saha@email.com" },
             ].map(({ icon: Icon, href }, i) => (
@@ -41,7 +41,7 @@ const Footer = () => (
           </div>
           <div className="mt-4 space-y-2 text-sm text-cream/60">
             <div className="flex items-center gap-2">
-              <Mail size={14} /> kriti.saha@email.com
+              <Mail size={14} /> kriti.kri.saha@email.com
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={14} /> India

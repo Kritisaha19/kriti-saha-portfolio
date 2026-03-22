@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, technologies, github, live, image }: 
   <div className="glass-card rounded-xl overflow-hidden card-hover group">
     <div className="h-48 bg-secondary overflow-hidden">
       {image ? (
-        <img src={image} alt={title} className="w-fullobject-contain group-hover:scale-105 transition-transform duration-500" />
+        <img src={image} alt={title} className="w-full h-fullobject-contain group-hover:scale-105 transition-transform duration-500" />
       ) : (
         <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy/10 to-navy/5">
           <span className="font-serif text-2xl text-navy/30">{title[0]}</span>

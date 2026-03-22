@@ -5,7 +5,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 import SectionHeading from "@/components/SectionHeading";
 import SkillCard from "@/components/SkillCard";
 import ProjectCard from "@/components/ProjectCard";
-
+import automl_screenshot from "@/assets/automl_screenshot.png";
+import os from "@/assets/os.png";
+import codesync from "@/assets/codesync.png";
 const quickSkills = [
   {
     name: "Python",
@@ -34,26 +36,28 @@ const quickSkills = [
 ];
 
 const featuredProjects = [
-  {
-    title: "Sentiment Analysis Engine",
-    description: "NLP-powered sentiment classifier using BERT transformers for real-time social media analysis.",
-    technologies: ["Python", "BERT", "Flask", "React"],
-    github: "https://github.com/kritisaha",
+ {
+    title: "Code-Sync: Collaborative Code Editor",
+    description: "Real-time collaborative code editor that enables multiple users to write, edit, and execute code simultaneously with live synchronization.",
+    image: codesync,
+    technologies: ["React.js", "Node.js", "Express.js", "WebSockets", "Python", "REST APIs", "MongoDB", "Git"],
+    github: "https://github.com/Kritisaha19/CODE-SYNC-real-time-collaborative-code-editor",
   },
   {
-    title: "Stock Price Predictor",
-    description: "LSTM neural network model predicting stock movements with 87% accuracy using historical data.",
-    technologies: ["Python", "TensorFlow", "Pandas", "Plotly"],
-    github: "https://github.com/kritisaha",
+    title: "AutoML Pipeline for Tabular Data",
+    description: "Automated machine learning pipeline that streamlines preprocessing, model selection, and hyperparameter tuning to deliver optimized models with minimal manual effort.",
+    image: automl_screenshot,
+    technologies: ["Python", "Scikit-learn", "PyCaret", "Matplotlib"],
+    github: "https://github.com/Kritisaha19/automl-pipeline-builder",
   },
   {
-    title: "COVID-19 Data Dashboard",
-    description: "Interactive visualization dashboard tracking global pandemic trends with real-time data updates.",
-    technologies: ["React", "D3.js", "REST API", "Tailwind"],
-    github: "https://github.com/kritisaha",
+    title: "Real-Time Memory Allocation Tracker",
+    description: "Interactive system for real-time visualization of memory allocation techniques including paging, segmentation, and fragmentation.",
+    image: os,
+    technologies: ["Python", "Tkinter","Numpy", "Operating Systems", "Data Visualization"],
+    github: "https://github.com/Kritisaha19/Real-Time-Memory-Allocation-Tracker",
   },
 ];
-
 const Home = () => (
   <div>
     {/* Hero Section */}

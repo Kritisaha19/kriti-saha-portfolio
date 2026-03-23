@@ -47,6 +47,19 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+ .dark {
+  --background: 222 84% 5%;
+  --foreground: 210 40% 98%;
+
+  --card: 222 84% 8%;
+  --card-foreground: 210 40% 98%;
+
+  --border: 217 32% 17%;
+  --input: 217 32% 17%;
+
+  --navy-dark: 222 84% 5%;
+  --cream: 210 40% 98%;
+}
 }
 
 @layer base {

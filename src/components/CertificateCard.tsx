@@ -32,7 +32,7 @@ const CertificateCard = ({ name, organization, date, image, pdfLink }: Certifica
   href={pdfLink}
   target="_blank"
   rel="noopener noreferrer"
-  className="btn-outline text-xs !px-3 !py-1.5 mt-4 inline-flex"
+  className="btn-outline text-xs !px-3 !py-1.5 mt-4 inline-flex bg-navy text-white rounded-lg hover:bg-navy/90 transition"
 >
   <Download size={12} /> View Certificate
 </a>

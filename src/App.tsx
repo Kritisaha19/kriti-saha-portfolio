@@ -5,8 +5,11 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import DarkModeToggle from "@/components/DarkModeToggle";
+
 import Home from "@/pages/Home";
 import About from "@/pages/About";
+import CV from "@/pages/CV";
 import Education from "@/pages/Education";
 import Skills from "@/pages/Skills";
 import Projects from "@/pages/Projects";
@@ -24,11 +27,18 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        
+        {/* Navbar */}
         <Navbar />
-        <main className="min-h-screen">
+
+        {/* Main */}
+        <main className="min-h-screen bg-background text-foreground dark:bg-navy-dark dark:text-cream transition-colors duration-300">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            
+            {/* ✅ FIXED: use lowercase */}
+            <Route path="/cv" element={<CV />} />
             <Route path="/education" element={<Education />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
@@ -39,6 +49,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+
         <Footer />
       </BrowserRouter>
     </TooltipProvider>
